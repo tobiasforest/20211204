@@ -81,7 +81,7 @@ def train_model(model, criterion, loaders, optimizer, scheduler, num_epochs=NUM_
                 best_acc = top_1_acc
                 best_model_wts = copy.deepcopy(model.state_dict())
 
-            torch.save(model.state_dict(), os.join(
+            torch.save(model.state_dict(), os.path.join(
                 MODEL_SAVE_PATH, 'net_epoch_%d.pth' % epoch))
 
     time_elapsed = time.time() - since
