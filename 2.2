@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-21T06:36:15.804Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="M7CM3l3jdjLQLLnfNxpW" version="18.0.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-05-21T06:52:56.414Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="XkR4ueBRmPb1_hRlKma0" version="18.0.8" type="github" pages="6">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1221" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -381,6 +381,186 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="730" y="510" as="sourcePoint" />
             <mxPoint x="790" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ybFybWajGV-hUNcnyrY_" name="Page-6">
+    <mxGraphModel dx="1483" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KpOmp8Y3yb7_JWDWgUdV-1" value="病人" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="130" y="80" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="KpOmp8Y3yb7_JWDWgUdV-2" value="+ 姓名: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="KpOmp8Y3yb7_JWDWgUdV-1">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KpOmp8Y3yb7_JWDWgUdV-5" value="+ 性别: bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="KpOmp8Y3yb7_JWDWgUdV-1">
+          <mxGeometry y="52" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KpOmp8Y3yb7_JWDWgUdV-7" value="+ 年龄: num" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="KpOmp8Y3yb7_JWDWgUdV-1">
+          <mxGeometry y="78" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KpOmp8Y3yb7_JWDWgUdV-6" value="+ 床号: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="KpOmp8Y3yb7_JWDWgUdV-1">
+          <mxGeometry y="104" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KpOmp8Y3yb7_JWDWgUdV-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="KpOmp8Y3yb7_JWDWgUdV-1">
+          <mxGeometry y="130" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="KpOmp8Y3yb7_JWDWgUdV-8" value="+ 输入病人基本信息(struct): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="KpOmp8Y3yb7_JWDWgUdV-1">
+          <mxGeometry y="138" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KpOmp8Y3yb7_JWDWgUdV-9" value="+ 输入病人生理信号(struct): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="KpOmp8Y3yb7_JWDWgUdV-1">
+          <mxGeometry y="164" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KpOmp8Y3yb7_JWDWgUdV-10" value="患者日志" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="425" y="220" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="KpOmp8Y3yb7_JWDWgUdV-11" value="+ 病人: struct" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="KpOmp8Y3yb7_JWDWgUdV-10">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KpOmp8Y3yb7_JWDWgUdV-12" value="+ 生理信号: struct" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="KpOmp8Y3yb7_JWDWgUdV-10">
+          <mxGeometry y="52" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KpOmp8Y3yb7_JWDWgUdV-13" value="+ 时间: time" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="KpOmp8Y3yb7_JWDWgUdV-10">
+          <mxGeometry y="78" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KpOmp8Y3yb7_JWDWgUdV-14" value="+ 护士姓名: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="KpOmp8Y3yb7_JWDWgUdV-10">
+          <mxGeometry y="104" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KpOmp8Y3yb7_JWDWgUdV-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="KpOmp8Y3yb7_JWDWgUdV-10">
+          <mxGeometry y="130" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="KpOmp8Y3yb7_JWDWgUdV-16" value="+ 输出患者日志(struct): string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="KpOmp8Y3yb7_JWDWgUdV-10">
+          <mxGeometry y="138" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KpOmp8Y3yb7_JWDWgUdV-17" value="+ 输出信号警报(struct): struct" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="KpOmp8Y3yb7_JWDWgUdV-10">
+          <mxGeometry y="164" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KpOmp8Y3yb7_JWDWgUdV-18" value="生理信号" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="130" y="360" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="KpOmp8Y3yb7_JWDWgUdV-19" value="+ 脉搏: struct" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="KpOmp8Y3yb7_JWDWgUdV-18">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KpOmp8Y3yb7_JWDWgUdV-20" value="+ 血压: struct" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="KpOmp8Y3yb7_JWDWgUdV-18">
+          <mxGeometry y="52" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KpOmp8Y3yb7_JWDWgUdV-21" value="+ 体温: struct" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="KpOmp8Y3yb7_JWDWgUdV-18">
+          <mxGeometry y="78" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KpOmp8Y3yb7_JWDWgUdV-22" value="+ 心电图: struct" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="KpOmp8Y3yb7_JWDWgUdV-18">
+          <mxGeometry y="104" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KpOmp8Y3yb7_JWDWgUdV-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="KpOmp8Y3yb7_JWDWgUdV-18">
+          <mxGeometry y="130" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="bEgynD3nCduiG7XVt6Qt-1" value="+ 输入生理信号(struct): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="KpOmp8Y3yb7_JWDWgUdV-18">
+          <mxGeometry y="138" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KpOmp8Y3yb7_JWDWgUdV-24" value="+ 输出生理信号(struct): struct" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="KpOmp8Y3yb7_JWDWgUdV-18">
+          <mxGeometry y="164" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bEgynD3nCduiG7XVt6Qt-2" value="护士" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="80" width="190" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="bEgynD3nCduiG7XVt6Qt-3" value="+ 姓名: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="bEgynD3nCduiG7XVt6Qt-2">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bEgynD3nCduiG7XVt6Qt-4" value="+ 工号: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="bEgynD3nCduiG7XVt6Qt-2">
+          <mxGeometry y="52" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bEgynD3nCduiG7XVt6Qt-5" value="+ 在岗时间: time" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="bEgynD3nCduiG7XVt6Qt-2">
+          <mxGeometry y="78" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bEgynD3nCduiG7XVt6Qt-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="bEgynD3nCduiG7XVt6Qt-2">
+          <mxGeometry y="104" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="bEgynD3nCduiG7XVt6Qt-8" value="+ 接收警报(struct): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="bEgynD3nCduiG7XVt6Qt-2">
+          <mxGeometry y="112" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bEgynD3nCduiG7XVt6Qt-9" value="+ 查看病情报告(struct): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="bEgynD3nCduiG7XVt6Qt-2">
+          <mxGeometry y="138" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bEgynD3nCduiG7XVt6Qt-12" value="病情报告" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="360" width="190" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="bEgynD3nCduiG7XVt6Qt-13" value="+ 病人: struct" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="bEgynD3nCduiG7XVt6Qt-12">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bEgynD3nCduiG7XVt6Qt-14" value="+ 生理信号: struct" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="bEgynD3nCduiG7XVt6Qt-12">
+          <mxGeometry y="52" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bEgynD3nCduiG7XVt6Qt-15" value="+ 病情: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="bEgynD3nCduiG7XVt6Qt-12">
+          <mxGeometry y="78" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bEgynD3nCduiG7XVt6Qt-19" value="+ 时间: time" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="bEgynD3nCduiG7XVt6Qt-12">
+          <mxGeometry y="104" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bEgynD3nCduiG7XVt6Qt-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="bEgynD3nCduiG7XVt6Qt-12">
+          <mxGeometry y="130" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="bEgynD3nCduiG7XVt6Qt-18" value="+ 输出病情报告(struct): string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;" vertex="1" parent="bEgynD3nCduiG7XVt6Qt-12">
+          <mxGeometry y="138" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bEgynD3nCduiG7XVt6Qt-20" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bEgynD3nCduiG7XVt6Qt-9" target="bEgynD3nCduiG7XVt6Qt-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="780" y="300" as="sourcePoint" />
+            <mxPoint x="870" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bEgynD3nCduiG7XVt6Qt-21" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KpOmp8Y3yb7_JWDWgUdV-7" target="KpOmp8Y3yb7_JWDWgUdV-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="330" as="sourcePoint" />
+            <mxPoint x="370" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="171" />
+              <mxPoint x="380" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bEgynD3nCduiG7XVt6Qt-24" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KpOmp8Y3yb7_JWDWgUdV-7" target="KpOmp8Y3yb7_JWDWgUdV-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="320" y="171" as="sourcePoint" />
+            <mxPoint x="425" y="311" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="171" />
+              <mxPoint x="380" y="311" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bEgynD3nCduiG7XVt6Qt-25" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.994;exitY=0.238;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KpOmp8Y3yb7_JWDWgUdV-22" target="KpOmp8Y3yb7_JWDWgUdV-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="320" y="171" as="sourcePoint" />
+            <mxPoint x="425" y="311" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="470" />
+              <mxPoint x="380" y="470" />
+              <mxPoint x="380" y="311" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bEgynD3nCduiG7XVt6Qt-26" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KpOmp8Y3yb7_JWDWgUdV-13" target="bEgynD3nCduiG7XVt6Qt-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="620" y="320" as="sourcePoint" />
+            <mxPoint x="690" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="310" />
+              <mxPoint x="670" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bEgynD3nCduiG7XVt6Qt-27" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontFamily=Noto Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BSC;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KpOmp8Y3yb7_JWDWgUdV-13" target="bEgynD3nCduiG7XVt6Qt-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="615" y="311" as="sourcePoint" />
+            <mxPoint x="720" y="171" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="310" />
+              <mxPoint x="670" y="170" />
+              <mxPoint x="670" y="450" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
