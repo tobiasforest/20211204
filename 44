@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-30T09:38:55.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="6FPIz6SHUKUIWpDaLiQF" version="18.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-30T10:09:54.557Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="bkOLxwu28Rn5itHVfLek" version="18.1.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="514" dy="304" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1273" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -22,7 +22,7 @@
         <mxCell id="63DNcqNPO0rEPHeprcf0-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;endArrow=open;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="63DNcqNPO0rEPHeprcf0-4" target="63DNcqNPO0rEPHeprcf0-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="63DNcqNPO0rEPHeprcf0-4" value="TABLE(I)=ITEM" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="63DNcqNPO0rEPHeprcf0-4" value="TABLE(I)==ITEM" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="190" y="230" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="63DNcqNPO0rEPHeprcf0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;endArrow=open;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="63DNcqNPO0rEPHeprcf0-5" target="63DNcqNPO0rEPHeprcf0-6">
@@ -89,7 +89,7 @@
         <mxCell id="63DNcqNPO0rEPHeprcf0-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;endArrow=open;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="63DNcqNPO0rEPHeprcf0-22" target="63DNcqNPO0rEPHeprcf0-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="63DNcqNPO0rEPHeprcf0-22" value="TABLE(START)=ITEM" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="63DNcqNPO0rEPHeprcf0-22" value="TABLE(START)==ITEM" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="190" y="590" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="63DNcqNPO0rEPHeprcf0-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;endArrow=open;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="63DNcqNPO0rEPHeprcf0-23" target="63DNcqNPO0rEPHeprcf0-24">
@@ -98,7 +98,7 @@
         <mxCell id="63DNcqNPO0rEPHeprcf0-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;endArrow=open;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="63DNcqNPO0rEPHeprcf0-23" target="63DNcqNPO0rEPHeprcf0-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="63DNcqNPO0rEPHeprcf0-23" value="TABLE(FINISH)=ITEM" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="63DNcqNPO0rEPHeprcf0-23" value="TABLE(FINISH)==ITEM" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="190" y="680" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="63DNcqNPO0rEPHeprcf0-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;endArrow=open;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="63DNcqNPO0rEPHeprcf0-24" target="63DNcqNPO0rEPHeprcf0-26">
@@ -156,6 +156,23 @@
         </mxCell>
         <mxCell id="63DNcqNPO0rEPHeprcf0-47" value="T" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="370" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bNzIJIG25p-dqlUI1Qwi" name="Page-2">
+    <mxGraphModel dx="1209" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TPZXhN6M6VUruBlsI2GD-1" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="270" y="90" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TPZXhN6M6VUruBlsI2GD-2" value="Set FLAG TO 0" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="240" y="440" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TPZXhN6M6VUruBlsI2GD-3" value="(FINISH-START)&amp;lt;=1 &lt;br&gt;&amp;amp;&amp;amp; FLAG = 0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="200" y="290" width="240" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
